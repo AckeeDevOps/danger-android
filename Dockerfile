@@ -1,6 +1,6 @@
 FROM ruby:2.6.4
 
-RUN gem install danger && \
+RUN gem install danger-gitlab && \
   gem install danger-android_lint && \
   gem install danger-commit_lint && \
   gem install danger-prose
