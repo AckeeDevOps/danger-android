@@ -4,7 +4,9 @@ RUN gem install danger-gitlab && \
   gem install danger-android_lint && \
   gem install danger-commit_lint && \
   gem install danger-ktlint && \
-  gem install danger-prose
+  gem install danger-prose && \
+  gem install danger-junit
+  
 
 RUN apt-get update && \
   apt-get install -y openjdk-11-jre-headless && \
