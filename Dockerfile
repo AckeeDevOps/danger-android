@@ -5,7 +5,8 @@ RUN gem install danger-gitlab && \
   gem install danger-commit_lint && \
   gem install danger-ktlint && \
   gem install danger-prose && \
-  gem install danger-junit
+  gem install danger-junit && \
+  gem install danger-kotlin_detekt
   
 
 RUN apt-get update && \
