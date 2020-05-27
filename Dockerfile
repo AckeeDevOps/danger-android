@@ -13,5 +13,3 @@ RUN apt-get update && \
   cd /usr/local/bin && curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.34.2/ktlint && chmod +x ktlint
 
 VOLUME /root/.gradle
-
-ENTRYPOINT ["danger", "--fail-on-errors=true"]
