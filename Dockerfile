@@ -1,4 +1,4 @@
-FROM ruby:2.6.4
+FROM ruby:3.3.0
 
 RUN gem install danger-gitlab && \
   gem install danger-android_lint && \
